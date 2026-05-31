@@ -1,4 +1,4 @@
-import { ArrowRight, Play, Star, Bookmark } from "lucide-react";
+import { ArrowRight, Star, Bookmark } from "lucide-react";
 
 export function Hero() {
   return (
