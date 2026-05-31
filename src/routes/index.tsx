@@ -1,29 +1,55 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/landing/Navbar";
+import { Hero } from "@/components/landing/Hero";
+import { Marquee } from "@/components/landing/Marquee";
+import { HowItWorks } from "@/components/landing/HowItWorks";
+import { Categories } from "@/components/landing/Categories";
+import { ForWriters } from "@/components/landing/ForWriters";
+import { Articles } from "@/components/landing/Articles";
+import { Testimonials } from "@/components/landing/Testimonials";
+import { FinalCta } from "@/components/landing/FinalCta";
+import { Footer } from "@/components/landing/Footer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "TortuTip — Get better, one tip at a time" },
+      {
+        name: "description",
+        content:
+          "Descubre tips diarios de bienestar creados por expertos reales, o comparte tu conocimiento con miles de personas. TortuTip: editorial, cálido, premium.",
+      },
+      { property: "og:title", content: "TortuTip — Crea una vida que te guste" },
+      {
+        property: "og:description",
+        content: "Tips diarios de bienestar, fitness, sueño, mente y productividad.",
+      },
+    ],
+    links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap",
+      },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main className="bg-[color:var(--cream)]">
+      <Navbar />
+      <Hero />
+      <Marquee />
+      <HowItWorks />
+      <Categories />
+      <ForWriters />
+      <Articles />
+      <Testimonials />
+      <FinalCta />
+      <Footer />
+    </main>
   );
 }
