@@ -2,7 +2,7 @@ import { ArrowRight, Play, Star, Bookmark } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative isolate overflow-hidden bg-grain pt-32 pb-20 md:min-h-screen md:pt-36 md:pb-24">
+    <section className="relative isolate overflow-hidden bg-grain pt-32 pb-16 md:pt-36 md:pb-20">
       {/* Atmospheric blob */}
       <div className="pointer-events-none absolute -right-32 top-20 -z-10 h-[640px] w-[640px] rounded-full mesh-blob opacity-70" />
       <div className="pointer-events-none absolute -left-40 bottom-0 -z-10 h-[420px] w-[420px] rounded-full mesh-blob opacity-50" />
