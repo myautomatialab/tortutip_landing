@@ -1,4 +1,4 @@
-import { Apple, Play } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
 
 export function FinalCta() {

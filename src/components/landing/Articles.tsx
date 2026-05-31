@@ -1,4 +1,4 @@
-import { Bookmark } from "lucide-react";
+import { Bookmark, ArrowRight } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
 
 const articles = [
