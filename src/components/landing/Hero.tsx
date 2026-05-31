@@ -1,4 +1,4 @@
-import { ArrowRight, Play, Star, Bookmark } from "lucide-react";
+import { ArrowRight, Star, Bookmark } from "lucide-react";
 
 export function Hero() {
   return (
@@ -40,16 +40,10 @@ export function Hero() {
           >
             <a
               href="#download"
-              className="btn-glow group inline-flex items-center gap-2 rounded-full bg-[color:var(--forest)] px-6 py-3.5 text-sm font-medium text-[color:var(--cream)] transition-all hover:bg-[color:var(--olive)]"
+              className="btn-glow group inline-flex items-center gap-2 rounded-full bg-[color:var(--forest)] px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[color:var(--olive)]"
             >
-              Empezar Gratis
+              Descargar App
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </a>
-            <a
-              href="#how"
-              className="inline-flex items-center gap-2 rounded-full px-5 py-3.5 text-sm font-medium text-[color:var(--ink)] ring-1 ring-[color:var(--ink)]/15 transition-all hover:bg-white"
-            >
-              <Play className="h-4 w-4" /> Ver demo
             </a>
           </div>
 

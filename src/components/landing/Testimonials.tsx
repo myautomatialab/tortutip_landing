@@ -1,3 +1,4 @@
+import { ArrowRight } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
 
 const items = [
@@ -59,6 +60,16 @@ export function Testimonials() {
               </figcaption>
             </figure>
           ))}
+        </div>
+
+        <div className="mt-14 flex justify-center">
+          <a
+            href="#download"
+            className="btn-glow group inline-flex items-center gap-2 rounded-full bg-[color:var(--forest)] px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[color:var(--olive)]"
+          >
+            Descargar App
+            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </a>
         </div>
       </div>
     </section>
