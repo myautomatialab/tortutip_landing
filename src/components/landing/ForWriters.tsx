@@ -87,7 +87,7 @@ export function ForWriters() {
           </ul>
 
           <a
-            href="https://claude.ai/public/artifacts/633ca522-a580-41b0-be43-a9b25e080a0c"
+            href="#" onClick={(e) => { e.preventDefault(); openCta(); }}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-glow group mt-10 inline-flex items-center gap-2 rounded-full bg-[color:var(--forest)] px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[color:var(--olive)]"

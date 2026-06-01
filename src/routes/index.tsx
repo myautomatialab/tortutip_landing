@@ -9,6 +9,7 @@ import { Articles } from "@/components/landing/Articles";
 import { Testimonials } from "@/components/landing/Testimonials";
 import { FinalCta } from "@/components/landing/FinalCta";
 import { Footer } from "@/components/landing/Footer";
+import { CtaModal } from "@/components/landing/CtaModal";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -50,6 +51,7 @@ function Index() {
       <Testimonials />
       <FinalCta />
       <Footer />
+      <CtaModal />
     </main>
   );
 }
