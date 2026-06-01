@@ -23,7 +23,7 @@ const cats = [
   {
     name: "Sueño & Bienestar",
     Icon: Moon,
-    img: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/YCH4EGTFMNARVMMZMPZIS32XJU.jpg",
+    img: "",
     span: "md:col-span-2",
   },
   {
