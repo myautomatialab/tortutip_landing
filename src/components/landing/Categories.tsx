@@ -21,12 +21,6 @@ const cats = [
     span: "",
   },
   {
-    name: "Sueño & Bienestar",
-    Icon: Moon,
-    img: "",
-    span: "md:col-span-2",
-  },
-  {
     name: "Salud Mental",
     Icon: Brain,
     img: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=800&q=80",
