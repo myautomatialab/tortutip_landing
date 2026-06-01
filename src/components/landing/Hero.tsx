@@ -23,29 +23,42 @@ export function Hero() {
             className="mt-6 animate-fade-up font-display text-[2.75rem] leading-[1.02] text-[color:var(--ink)] sm:text-6xl md:text-7xl"
             style={{ animationDelay: "0.18s" }}
           >
-            Crea una vida{" "}
-            <span className="italic text-[color:var(--forest)]">que te guste</span>
+            Crea una vida <span className="italic text-[color:var(--forest)]">que te guste</span>
           </h1>
 
           <p
             className="mt-6 max-w-xl animate-fade-up text-lg leading-relaxed text-[color:var(--ink)]/70"
             style={{ animationDelay: "0.32s" }}
           >
-            Descubre tips diarios creados por expertos reales. O comparte tu
-            conocimiento con miles de personas apasionadas por vivir mejor.
+            Descubre tips diarios creados por expertos reales. O comparte tu conocimiento con miles de personas
+            apasionadas por vivir mejor.
           </p>
 
-          <div
-            className="mt-8 flex animate-fade-up flex-wrap items-center gap-3"
-            style={{ animationDelay: "0.46s" }}
-          >
+          <div className="mt-8 flex animate-fade-up flex-wrap items-center gap-3" style={{ animationDelay: "0.46s" }}>
             <a
-              href="#" onClick={(e) => { e.preventDefault(); openCta(); }}
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                openCta();
+              }}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-glow group inline-flex items-center gap-2 rounded-full bg-[color:var(--forest)] px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[color:var(--olive)]"
             >
               Empieza aquí
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </a>
+            <a
+              href="https://youtu.be/Q2XhqkZftbo"
+              onClick={(e) => {
+                e.preventDefault();
+                openCta();
+              }}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-glow group inline-flex items-center gap-2 rounded-full bg-[color:var(--forest)] px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[color:var(--olive)]"
+            >
+              Ver video
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
           </div>
@@ -59,9 +72,13 @@ export function Hero() {
               <strong className="font-semibold text-[color:var(--ink)]">4.9</strong>
             </span>
             <span>·</span>
-            <span><strong className="font-semibold text-[color:var(--ink)]">10k+</strong> usuarios</span>
+            <span>
+              <strong className="font-semibold text-[color:var(--ink)]">10k+</strong> usuarios
+            </span>
             <span>·</span>
-            <span><strong className="font-semibold text-[color:var(--ink)]">500+</strong> artículos</span>
+            <span>
+              <strong className="font-semibold text-[color:var(--ink)]">500+</strong> artículos
+            </span>
           </div>
         </div>
 
