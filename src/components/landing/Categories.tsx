@@ -23,7 +23,7 @@ const cats = [
   {
     name: "Sueño & Bienestar",
     Icon: Moon,
-    img: "https://images.unsplash.com/photo-1455642305367-68834a9d4337?auto=format&fit=crop&w=800&q=80",
+    img: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/YCH4EGTFMNARVMMZMPZIS32XJU.jpg",
     span: "md:col-span-2",
   },
   {
@@ -47,9 +47,7 @@ export function Categories() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div className="max-w-2xl">
-            <span className="text-xs font-medium uppercase tracking-[0.2em] text-[color:var(--olive)]">
-              Categorías
-            </span>
+            <span className="text-xs font-medium uppercase tracking-[0.2em] text-[color:var(--olive)]">Categorías</span>
             <h2 className="mt-4 font-display text-4xl text-[color:var(--ink)] sm:text-5xl md:text-6xl">
               Encuentra tu mundo
             </h2>
@@ -61,11 +59,7 @@ export function Categories() {
 
         <div className="mt-14 grid auto-rows-[220px] grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4 md:auto-rows-[240px]">
           {cats.map(({ name, Icon, img, span }) => (
-            <a
-              key={name}
-              href="#download"
-              className={`group relative overflow-hidden rounded-3xl ${span}`}
-            >
+            <a key={name} href="#download" className={`group relative overflow-hidden rounded-3xl ${span}`}>
               <img
                 src={img}
                 alt={name}
@@ -83,9 +77,7 @@ export function Categories() {
                     <ArrowUpRight className="h-5 w-5" />
                   </span>
                 </div>
-                <h3 className="font-display text-2xl text-[color:var(--cream)] md:text-3xl">
-                  {name}
-                </h3>
+                <h3 className="font-display text-2xl text-[color:var(--cream)] md:text-3xl">{name}</h3>
               </div>
             </a>
           ))}
