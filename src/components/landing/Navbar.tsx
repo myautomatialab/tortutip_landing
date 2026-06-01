@@ -17,7 +17,10 @@ export function Navbar() {
     { href: "#features", label: "Features" },
     { href: "#writers", label: "Para Escritores" },
     { href: "#categories", label: "Categorías" },
-    { href: "https://claude.ai/public/artifacts/633ca522-a580-41b0-be43-a9b25e080a0c", label: "Empieza aquí" },
+  ];
+  const ctaLink = { label: "Empieza aquí" };
+  void ctaLink;
+  const _unused = [
   ];
 
   return (
