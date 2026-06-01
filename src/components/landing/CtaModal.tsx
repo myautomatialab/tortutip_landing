@@ -45,7 +45,7 @@ export function CtaModal() {
           <X className="h-5 w-5" />
         </button>
         <iframe
-          src="https://claude.site/public/artifacts/40462bf8-07a9-4c88-a790-366e08283bd1/embed"
+          src="/tortutip_presentation.html"
           title="tortutip_presentation.html"
           className="h-full w-full"
           frameBorder={0}
