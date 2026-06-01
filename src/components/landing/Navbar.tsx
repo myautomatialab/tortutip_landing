@@ -18,10 +18,7 @@ export function Navbar() {
     { href: "#writers", label: "Para Escritores" },
     { href: "#categories", label: "Categorías" },
   ];
-  const ctaLink = { label: "Empieza aquí" };
-  void ctaLink;
-  const _unused = [
-  ];
+
 
   return (
     <header
@@ -89,10 +86,8 @@ export function Navbar() {
             ))}
             <li>
               <a
-                href="#" onClick={(e) => { e.preventDefault(); openCta(); }}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setOpen(false)}
+                href="#"
+                onClick={(e) => { e.preventDefault(); setOpen(false); openCta(); }}
                 className="mt-2 block rounded-full bg-[color:var(--forest)] px-5 py-2.5 text-center text-[color:var(--cream)]"
               >
                 Empieza aquí
