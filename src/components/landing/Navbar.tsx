@@ -1,3 +1,4 @@
+import { openCta } from "./CtaModal";
 import { useEffect, useState } from "react";
 import { Zap, Menu, X } from "lucide-react";
 
@@ -16,8 +17,8 @@ export function Navbar() {
     { href: "#features", label: "Features" },
     { href: "#writers", label: "Para Escritores" },
     { href: "#categories", label: "Categorías" },
-    { href: "https://claude.ai/public/artifacts/633ca522-a580-41b0-be43-a9b25e080a0c", label: "Empieza aquí" },
   ];
+
 
   return (
     <header
@@ -52,7 +53,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://claude.ai/public/artifacts/633ca522-a580-41b0-be43-a9b25e080a0c"
+            href="#" onClick={(e) => { e.preventDefault(); openCta(); }}
             target="_blank"
             rel="noopener noreferrer"
             className="hidden rounded-full bg-[color:var(--forest)] px-5 py-2.5 text-sm font-medium text-[color:var(--cream)] transition-all hover:bg-[color:var(--olive)] hover:shadow-lg md:inline-flex"
@@ -85,10 +86,8 @@ export function Navbar() {
             ))}
             <li>
               <a
-                href="https://claude.ai/public/artifacts/633ca522-a580-41b0-be43-a9b25e080a0c"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setOpen(false)}
+                href="#"
+                onClick={(e) => { e.preventDefault(); setOpen(false); openCta(); }}
                 className="mt-2 block rounded-full bg-[color:var(--forest)] px-5 py-2.5 text-center text-[color:var(--cream)]"
               >
                 Empieza aquí
