@@ -77,14 +77,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Tortutip" },
+      { name: "description", content: "Un tip al día.
+Una vida mejor." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Tortutip" },
+      { property: "og:description", content: "Un tip al día.
+Una vida mejor." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Tortutip" },
+      { name: "twitter:description", content: "Un tip al día.
+Una vida mejor." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/14b57af2-d8c8-46e8-bb89-752f81d18e4e/id-preview-9f8fd8d1--8d1b9918-c801-4efe-9e68-a37a42a7a2d4.lovable.app-1780272582651.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/14b57af2-d8c8-46e8-bb89-752f81d18e4e/id-preview-9f8fd8d1--8d1b9918-c801-4efe-9e68-a37a42a7a2d4.lovable.app-1780272582651.png" },
     ],
     links: [
       {
