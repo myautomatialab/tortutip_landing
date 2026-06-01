@@ -1,3 +1,4 @@
+import { openCta } from "./CtaModal";
 import { PenLine, Image as ImageIcon, Tags, BarChart3, ArrowRight, Bold, Italic, Link2, Quote } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
 

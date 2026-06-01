@@ -1,3 +1,4 @@
+import { openCta } from "./CtaModal";
 import { useEffect, useState } from "react";
 import { Zap, Menu, X } from "lucide-react";
 

@@ -1,3 +1,4 @@
+import { openCta } from "./CtaModal";
 import { ArrowRight, Star, Bookmark } from "lucide-react";
 
 export function Hero() {

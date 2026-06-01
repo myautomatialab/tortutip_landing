@@ -1,3 +1,4 @@
+import { openCta } from "./CtaModal";
 import { Bookmark, ArrowRight } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
 
