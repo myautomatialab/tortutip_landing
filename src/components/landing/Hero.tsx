@@ -39,10 +39,12 @@ export function Hero() {
             style={{ animationDelay: "0.46s" }}
           >
             <a
-              href="#download"
+              href="https://claude.ai/public/artifacts/633ca522-a580-41b0-be43-a9b25e080a0c"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-glow group inline-flex items-center gap-2 rounded-full bg-[color:var(--forest)] px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[color:var(--olive)]"
             >
-              Descargar App
+              Empieza aquí
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
           </div>

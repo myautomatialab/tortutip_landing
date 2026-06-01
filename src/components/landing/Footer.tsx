@@ -4,7 +4,7 @@ export function Footer() {
   const cols = [
     {
       title: "Producto",
-      links: ["Features", "Categorías", "Para Escritores", "Descargar"],
+      links: ["Features", "Categorías", "Para Escritores", "Empieza aquí"],
     },
     {
       title: "Empresa",
