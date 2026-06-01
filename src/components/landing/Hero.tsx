@@ -35,33 +35,31 @@ export function Hero() {
           </p>
 
           <div className="mt-8 flex animate-fade-up flex-wrap items-center gap-3" style={{ animationDelay: "0.46s" }}>
-            <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                openCta();
-              }}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-glow group inline-flex items-center gap-2 rounded-full bg-[color:var(--forest)] px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[color:var(--olive)]"
-            >
-              Empieza aquí
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </a>
-            <a
-              href="https://youtu.be/Q2XhqkZftbo"
-              onClick={(e) => {
-                e.preventDefault();
-                openCta();
-              }}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-glow group inline-flex items-center gap-2 rounded-full bg-[color:var(--forest)] px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[color:var(--olive)]"
-            >
-              Ver video
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </a>
-          </div>
+  
+    href="#"
+    onClick={(e) => {
+      e.preventDefault();
+      openCta();
+    }}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn-glow group inline-flex items-center gap-2 rounded-full bg-[color:var(--forest)] px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-[color:var(--olive)]"
+  >
+    Empieza aquí
+    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+  </a>
+  
+    href="https://youtu.be/Q2XhqkZftbo"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="group inline-flex items-center gap-2 rounded-full border border-[color:var(--forest)]/30 px-6 py-3.5 text-sm font-medium text-[color:var(--forest)] transition-all hover:border-[color:var(--forest)]/60 hover:bg-[color:var(--forest)]/5"
+  >
+    <span className="grid h-5 w-5 place-items-center rounded-full bg-[color:var(--forest)] text-white transition-transform group-hover:scale-110">
+      ▶
+    </span>
+    Ver vídeo
+  </a>
+</div>
 
           <div
             className="mt-10 flex animate-fade-up flex-wrap items-center gap-x-6 gap-y-2 text-sm text-[color:var(--ink)]/65"
